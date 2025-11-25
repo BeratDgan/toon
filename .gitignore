@@ -6,6 +6,7 @@ docs/.vitepress/dist
 docs/.vitepress/cache
 packages/toon/test/fixtures/*.json
 packages/toon/test/fixtures/*.toon
+package-lock.json
 
 # Batch conversion directories (keep structure, ignore content)
 input_json/*
