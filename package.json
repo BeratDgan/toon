@@ -14,7 +14,8 @@
     "lint:fix": "eslint . --fix",
     "test": "pnpm -r test",
     "test:types": "tsc --noEmit",
-    "release": "bumpp -r"
+    "release": "bumpp -r",
+    "convert:json": "tsx scripts/convert-json-to-toon.ts"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^6.2.0",
