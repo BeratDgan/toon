@@ -6,3 +6,9 @@ docs/.vitepress/dist
 docs/.vitepress/cache
 packages/toon/test/fixtures/*.json
 packages/toon/test/fixtures/*.toon
+
+# Batch conversion directories (keep structure, ignore content)
+input_json/*
+!input_json/.gitkeep
+output_toon/*
+!output_toon/.gitkeep
