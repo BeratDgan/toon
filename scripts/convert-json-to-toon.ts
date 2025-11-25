@@ -27,7 +27,6 @@ async function convertJsonToToon(inputPath: string, outputPath: string): Promise
 
   const toonOutput = encode(data, {
     indent: 2,
-    delimiter: ': ',
     keyFolding: 'off',
   })
 
